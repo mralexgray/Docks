@@ -14,13 +14,9 @@
 @class SDMainWindowController;
 @class SDStatusItemController;
 
-@class SDDocksIntroWindowController;
-
 @interface AppDelegate : SDCommonAppDelegate <SDSpacesDelegate> {
 	SDMainWindowController *mainWindowController;
 	SDStatusItemController *statusItemController;
-	
-	SDDocksIntroWindowController *docksIntroWindowController;
 }
 
 - (IBAction) takeSnapshot:(id)sender;

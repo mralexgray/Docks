@@ -86,10 +86,8 @@
 		94676C261024CDC000533467 /* intro1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94676C231024CDC000533467 /* intro1.png */; };
 		94676C271024CDC000533467 /* intro2.png in Resources */ = {isa = PBXBuildFile; fileRef = 94676C241024CDC000533467 /* intro2.png */; };
 		94676C281024CDC000533467 /* intro3.png in Resources */ = {isa = PBXBuildFile; fileRef = 94676C251024CDC000533467 /* intro3.png */; };
-		947D24E81024D99A003B8602 /* UsingDocks.mov in Resources */ = {isa = PBXBuildFile; fileRef = 947D24E71024D99A003B8602 /* UsingDocks.mov */; };
 		947D24EC1024D9DC003B8602 /* DocksIntroWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 947D24EB1024D9DC003B8602 /* DocksIntroWindow.xib */; };
 		947D24F31024D9E9003B8602 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947D24F21024D9E9003B8602 /* QTKit.framework */; };
-		947D24F91024DA05003B8602 /* SDDocksIntroWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D24F81024DA05003B8602 /* SDDocksIntroWindowController.m */; };
 		94ADAB7B101EBF97008CC640 /* SDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ADAB7A101EBF97008CC640 /* SDViewController.m */; };
 		94EDB14610148932009CB507 /* SDSnapshotEditableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EDB14510148932009CB507 /* SDSnapshotEditableView.m */; };
 		94EDB1D0101535A2009CB507 /* TexturedSliderPhotoLarge.tif in Resources */ = {isa = PBXBuildFile; fileRef = 94EDB1CE101535A2009CB507 /* TexturedSliderPhotoLarge.tif */; };
@@ -243,11 +241,8 @@
 		94676C231024CDC000533467 /* intro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intro1.png; path = Graphics/intro1.png; sourceTree = "<group>"; };
 		94676C241024CDC000533467 /* intro2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intro2.png; path = Graphics/intro2.png; sourceTree = "<group>"; };
 		94676C251024CDC000533467 /* intro3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intro3.png; path = Graphics/intro3.png; sourceTree = "<group>"; };
-		947D24E71024D99A003B8602 /* UsingDocks.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = UsingDocks.mov; path = Resources/UsingDocks.mov; sourceTree = "<group>"; };
 		947D24EB1024D9DC003B8602 /* DocksIntroWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocksIntroWindow.xib; sourceTree = "<group>"; };
 		947D24F21024D9E9003B8602 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
-		947D24F71024DA05003B8602 /* SDDocksIntroWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDDocksIntroWindowController.h; path = Source/SDDocksIntroWindowController.h; sourceTree = "<group>"; };
-		947D24F81024DA05003B8602 /* SDDocksIntroWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDDocksIntroWindowController.m; path = Source/SDDocksIntroWindowController.m; sourceTree = "<group>"; };
 		94ADAB79101EBF97008CC640 /* SDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDViewController.h; path = Source/SDViewController.h; sourceTree = "<group>"; };
 		94ADAB7A101EBF97008CC640 /* SDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDViewController.m; path = Source/SDViewController.m; sourceTree = "<group>"; };
 		94EDB14410148932009CB507 /* SDSnapshotEditableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDSnapshotEditableView.h; path = Source/SDSnapshotEditableView.h; sourceTree = "<group>"; };
@@ -432,8 +427,6 @@
 				94512383100E28C900361D27 /* AppDelegate.m */,
 				94512E5E101114C300361D27 /* SDStatusItemController.h */,
 				94512E5F101114C300361D27 /* SDStatusItemController.m */,
-				947D24F71024DA05003B8602 /* SDDocksIntroWindowController.h */,
-				947D24F81024DA05003B8602 /* SDDocksIntroWindowController.m */,
 				945C0E0F1011388800F84230 /* Main Window */,
 				94512698100EAB8F00361D27 /* Preferences */,
 			);
@@ -540,7 +533,6 @@
 		94512B291010012300361D27 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
-				947D24E71024D99A003B8602 /* UsingDocks.mov */,
 				94512B231010011D00361D27 /* Credits.rtfd */,
 				94512B241010011D00361D27 /* DefaultValues.plist */,
 				94512B251010011D00361D27 /* ShutterSound.wav */,
@@ -681,7 +673,6 @@
 				94676C261024CDC000533467 /* intro1.png in Resources */,
 				94676C271024CDC000533467 /* intro2.png in Resources */,
 				94676C281024CDC000533467 /* intro3.png in Resources */,
-				947D24E81024D99A003B8602 /* UsingDocks.mov in Resources */,
 				947D24EC1024D9DC003B8602 /* DocksIntroWindow.xib in Resources */,
 				944792FB139147E400BB7CBD /* InstructionsWindow.xib in Resources */,
 				94479304139147E400BB7CBD /* PreferencesWindow.xib in Resources */,
@@ -724,7 +715,6 @@
 				945C141910134E0A00F84230 /* SDDocks1Importer.m in Sources */,
 				94EDB14610148932009CB507 /* SDSnapshotEditableView.m in Sources */,
 				94ADAB7B101EBF97008CC640 /* SDViewController.m in Sources */,
-				947D24F91024DA05003B8602 /* SDDocksIntroWindowController.m in Sources */,
 				944792FC139147E400BB7CBD /* NSApplication+AppInfo.m in Sources */,
 				944792FD139147E400BB7CBD /* NSArray+UsefulStuff.m in Sources */,
 				944792FE139147E400BB7CBD /* NSManagedObject+SDAdditions.m in Sources */,

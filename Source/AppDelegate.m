@@ -20,8 +20,6 @@
 
 #import "SDDocks1Importer.h"
 
-#import "SDDocksIntroWindowController.h"
-
 @interface AppDelegate (Private)
 @end
 
@@ -67,17 +65,6 @@
 		mainWindowController = [[SDMainWindowController alloc] init];
 	
 	return mainWindowController;
-}
-
-- (void) _showInstructionsWindow {
-	if (docksIntroWindowController == nil)
-		docksIntroWindowController = [[SDDocksIntroWindowController alloc] init];
-	
-	[docksIntroWindowController showWindow:self];
-}
-
-- (void) showInstructionsWindow:(id)sender {
-	[[self nextRunloopProxy] _showInstructionsWindow];
 }
 
 - (void)applicationWillFinishLaunching:(NSNotification *)notification {
